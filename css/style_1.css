@@ -1,0 +1,79 @@
+/* Custom Styles */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .about-founder {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .why-choose-us {
+    padding: 80px 0;
+  }
+  
+  .icon {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .countdown {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .cta {
+    background-color: #007bff;
+    padding: 80px 0;
+  }
+  
+  .slide-up-form {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .slide-up-form form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .slide-up-form input[type="text"],
+  .slide-up-form input[type="email"],
+  .slide-up-form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .slide-up-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 576px) {
+    .hero {
+      padding: 50px 0;
+    }
+  
+    .about-founder,
+    .why-choose-us,
+    .countdown,
+    .cta {
+      padding: 50px 0;
+    }
+  }
+  
