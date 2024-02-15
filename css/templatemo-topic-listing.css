@@ -1,18 +1,18 @@
 
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
+  --white-color: #ffffff;
+  --primary-color: #639a67; /* Sage Green */
+  --secondary-color: #f0c419; /* Royal Yellow */
+  --section-bg-color: #f8f9fa; /* Grey */
+  --custom-btn-bg-color: #639a67; /* Sage Green */
+  --custom-btn-bg-hover-color: #f0c419; /* Royal Yellow */
+  --dark-color: #343a40; /* Dark Grey */
+  --p-color: #6c757d; /* Light Grey */
+  --border-color: #dee2e6; /* Border Color */
+  --link-hover-color: #13547a; /* Primary Color */
 
-  --body-font-family:             'Open Sans', sans-serif;
-  --title-font-family:            'Montserrat', sans-serif;
+  --body-font-family: 'General Sans', sans-serif; 
+  --title-font-family: 'General Sans', sans-serif;
 
   --h1-font-size:                 58px;
   --h2-font-size:                 46px;
@@ -137,7 +137,7 @@ strong {
 }
 
 .section-overlay {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #13547a 0%, #ffeb3b 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -238,7 +238,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #13547a 0%, #f0c419 100%);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -476,7 +476,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #e7cc40e8 0%, #f0c419 100%);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
@@ -716,7 +716,7 @@ blockquote {
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
+  background-image: url('../images/4e.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
